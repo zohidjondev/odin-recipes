@@ -8,3 +8,5 @@ In this project i am going to demonstrate the understanding of following  HTML e
 <img> (For images)
 <a> (For links to different parts of website by means of relative and absolute links)
 <ul> (unordered )and <ol>(ordered) lists together with <li> list item
+
+edited 1.2
