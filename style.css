@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-family: 'Montserrat';
+
+    --color-neutral: #F3F7EC;
+    --color-action: #E88D67;
+    --color-main: #005C78 ;
+
+    --border-radius: 2rem;
+
+    --box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+}
+
+* {
+    font-family: var(--font-family);
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--color-neutral);
+}
+
+.nav-bar {
+    display: flex;
+    background: var(--color-main);
+    color: var(--color-neutral);
+    justify-content: space-between;
+    padding: 1.3rem;
+    box-shadow: var(--box-shadow);
+}
+
+.logo {
+    display: flex;
+}
+
+.logo a{
+    color: var(--color-neutral);
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    /* padding: 10px; */
+    color: var(--color-neutral);
+    gap: 1.5rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu li a{
+    color: var(--color-neutral);
+    text-decoration: none;
+}
+
+.link:hover {
+    background: var(--color-neutral);
+    color: var(--color-main);
+    font-weight: 800;
+    transition: 0.5s;
+    border-radius: var(--border-radius);
+    padding: .4rem;
+}
+
+/* recipes  */
+
+.container {
+    /* background: var(--color-action); */
+    background: var(--color-main);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    color: var(--color-neutral);
+    width: 50rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.food-name {
+    margin-bottom: 1.5rem;
+    /* border: .1 solid var(--color-neutral); */
+}
+
+.container img{
+    width: 100%;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+
+.container ol li{
+    padding-left: 1rem;
+}
+.container ul li{
+    padding-left: 1rem;
+}
